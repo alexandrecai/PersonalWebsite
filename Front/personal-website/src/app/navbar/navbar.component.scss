@@ -1,0 +1,36 @@
+nav {
+  background-color: #f8f9fa; /* Couleur de fond */
+  padding: 15px 0; /* Espacement interne en haut et en bas */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
+
+  .navbar-brand {
+    font-size: 24px;
+    color: #007bff; /* Couleur du texte pour le lien du logo */
+    font-weight: bold;
+  }
+
+  .navbar-toggler {
+    background-color: #007bff; /* Couleur du bouton burger */
+    border: none;
+  }
+
+  .navbar-nav {
+    .nav-item {
+      margin-right: 10px;
+
+      .nav-link {
+        font-size: 16px;
+        color: #343a40; /* Couleur du texte des liens */
+        transition: color 0.3s;
+
+        &:hover {
+          color: #007bff; /* Couleur du texte des liens au survol */
+        }
+      }
+    }
+  }
+}
+
+.test{
+  background-color: green;
+}
