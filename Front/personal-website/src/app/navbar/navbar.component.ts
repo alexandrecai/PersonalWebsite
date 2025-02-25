@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterLinkActive } from '@angular/router';
+import {Router, RouterLink, RouterLinkActive} from '@angular/router';
 
 
 @Component({
@@ -10,4 +10,9 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 })
 export class NavbarComponent {
 
+  constructor(private router: Router) {}
+
+  onClickName() {
+    this.router.navigateByUrl('');
+  }
 }

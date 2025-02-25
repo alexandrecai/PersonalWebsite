@@ -1,36 +1,43 @@
 nav {
-  background-color: #f8f9fa; /* Couleur de fond */
-  padding: 15px 0; /* Espacement interne en haut et en bas */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
-
-  .navbar-brand {
-    font-size: 24px;
-    color: #007bff; /* Couleur du texte pour le lien du logo */
-    font-weight: bold;
-  }
-
-  .navbar-toggler {
-    background-color: #007bff; /* Couleur du bouton burger */
-    border: none;
-  }
+  background-color: #f8f9fa;
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
   .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
     .nav-item {
       margin-right: 10px;
 
       .nav-link {
         font-size: 16px;
-        color: #343a40; /* Couleur du texte des liens */
-        transition: color 0.3s;
+        color: #343a40;
+        transition: color 0.3s, font-size 0.3s;
 
         &:hover {
-          color: #007bff; /* Couleur du texte des liens au survol */
+          color: #000000;
+          font-size: 20px;
+          background-color: #e3e3e3;
+
         }
+      }
+
+      .active{
+        color: #000000;
+        font-size: 20px;
+        background-color: #e3e3e3;
       }
     }
   }
 }
 
-.test{
-  background-color: green;
+button {
+  border: none;
+  background-color: transparent;
+  &:active {
+    transform: translate(1px, 1px);
+  }
 }
