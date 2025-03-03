@@ -12,6 +12,7 @@ nav {
     .nav-item {
       margin-right: 10px;
 
+
       .nav-link {
         font-size: 16px;
         color: #343a40;
@@ -21,7 +22,7 @@ nav {
           color: #000000;
           font-size: 20px;
           background-color: #e3e3e3;
-
+          border-radius: 20px;
         }
       }
 
@@ -29,6 +30,7 @@ nav {
         color: #000000;
         font-size: 20px;
         background-color: #e3e3e3;
+        border-radius: 20px;
       }
     }
   }

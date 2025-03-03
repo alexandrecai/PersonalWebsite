@@ -11,11 +11,11 @@ export class ProjetService {
   initProjets():void{
       this.projets = [
         new Projet(
-          "test",
-          "je suis un test",
-          "http://image",
-          ["marcel","thierry"],
-          ["java","spring"]
+          "Site web pour une pizzeria",
+          "DiLL is a challenge that connects students from the University of Orléans, the University of Tours, and INSA CVL with companies, associations, communities, and institutions from the Centre-Val de Loire region. Each organization submits a project that students work on in groups.",
+          "/petitesaisonlogo.jpg",
+          ["Alexandre Cailloux","Arnaud Girard","Matthieur Bonbon","Fatoumata Barry"],
+          ["Java","Spring","Angular","MongoDB"]
         )
       ];
   }

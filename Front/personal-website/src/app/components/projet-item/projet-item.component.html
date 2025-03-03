@@ -1,2 +1,26 @@
-<h2>{{ projet.name }}</h2>
-<h2>{{ projet.description }}</h2>
+<div class="d-flex d-inline p-5 align-items-center whole-card">
+  <div>
+    <h2 class="pb-3">{{ projet.name }}</h2>
+    <p class="pb-3  col-11">{{ projet.description }}</p>
+    <h4>Contributeurs</h4>
+    <div class="d-flex d-inline pb-4">
+      <mat-chip-set>
+        @for (name of projet.contributors; track projet.contributors){
+          <mat-chip>{{ name }}</mat-chip>
+
+        }
+      </mat-chip-set>
+    </div>
+    <h4>Technologies</h4>
+    <div class="d-flex d-inline">
+      <mat-chip-set>
+        @for (tec of projet.technos; track projet.technos){
+          <mat-chip highlighted>{{ tec }}</mat-chip>
+        }
+      </mat-chip-set>
+    </div>
+  </div>
+  <div>
+    <img [ngSrc]=projet.imageUrl alt="logo" width="200" height="200">
+  </div>
+</div>

@@ -1,0 +1,27 @@
+.mat-mdc-standard-chip{
+  --mdc-chip-elevated-container-color: #ffffff;
+  --mdc-chip-label-text-color: #474747;
+}
+
+.mat-mdc-chip-highlighted{
+  --mdc-chip-elevated-container-color: #474747;
+  --mdc-chip-label-text-color: white;
+}
+
+p{
+  text-align: justify;
+}
+
+.whole-card{
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  &:hover{
+    background-color: #e3e3e3;
+  }
+}
+
+img{
+  border-radius: 20px;
+  border: solid #474747;
+}
