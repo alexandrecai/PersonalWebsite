@@ -1,1 +1,52 @@
-<p>about-page works!</p>
+<div class="d-flex flex-column align-items-center justify-content-center p-3 p-md-5 p-lg-5">
+  <div class="col-12 col-md-12 col-lg-5 pt-4">
+    <div class="d-flex flex-column flex-md-row flex-lg-row p-5 align-items-center whole-card mb-5">
+      <div class="mt-4 mt-lg-0 mt-md-0 ms-md-4 ms-lg-0 border-right pe-5">
+        <img ngSrc="/petitesaisonlogo.jpg" alt="logo" width="300" height="300">
+      </div>
+      <div>
+        <p class="p-4 ps-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages</p>
+        <ul class="ps-5">
+          <li>
+            <h5 class="pe-2">Âge</h5>
+            <p>24 ans</p>
+          </li>
+          <li>
+            <h5 class="pe-2">Localisation</h5>
+            <p>Orléans</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <h2 class="mb-4">Diplômes</h2>
+  @for (diplome of diplomes; track diplome.name){
+    <div class="col-12 col-md-12 col-lg-5">
+      <div class="d-flex flex-column flex-md-row flex-lg-row p-5 align-items-center whole-card mb-5">
+        <div class="flex-grow-1">
+          <h3>{{diplome.name}}</h3>
+          <h4>{{diplome.place}}</h4>
+          <p>{{diplome.date}}</p>
+        </div>
+        <div class="mt-4 mt-lg-0 mt-md-0 ms-md-4 ms-lg-0">
+          <img class="logo-diplome" [ngSrc]=diplome.imageUrl alt="logo" width="100" height="100">
+        </div>
+      </div>
+    </div>
+  }
+  <h2 class="mb-4">Expériences professionnelles</h2>
+  @for (experience of experiences; track experience.poste){
+    <div class="col-12 col-md-12 col-lg-5">
+      <div class="d-flex flex-column flex-md-row flex-lg-row p-5 align-items-center whole-card mb-5">
+        <div class="flex-grow-1">
+          <h3>{{experience.poste}}</h3>
+          <h4>{{experience.entreprise}}</h4>
+          <p>{{experience.date}}</p>
+        </div>
+        <div class="mt-4 mt-lg-0 mt-md-0 ms-md-4 ms-lg-0">
+          <img class="logo-diplome" [ngSrc]=experience.imageUrl alt="logo" width="100" height="100">
+        </div>
+      </div>
+    </div>
+  }
+</div>

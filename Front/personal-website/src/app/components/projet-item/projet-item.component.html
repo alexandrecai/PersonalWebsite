@@ -1,4 +1,4 @@
-<div class="d-flex d-inline p-5 align-items-center whole-card">
+<div class="d-flex flex-column flex-md-row flex-lg-row p-5 align-items-center whole-card mb-5">
   <div>
     <h2 class="pb-3">{{ projet.name }}</h2>
     <p class="pb-3  col-11">{{ projet.description }}</p>
@@ -20,7 +20,7 @@
       </mat-chip-set>
     </div>
   </div>
-  <div>
+  <div class="mt-4 mt-lg-0 mt-md-0 ms-md-4 ms-lg-0">
     <img [ngSrc]=projet.imageUrl alt="logo" width="200" height="200">
   </div>
 </div>

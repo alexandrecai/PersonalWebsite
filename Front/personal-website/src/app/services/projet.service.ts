@@ -14,7 +14,21 @@ export class ProjetService {
           "Site web pour une pizzeria",
           "DiLL is a challenge that connects students from the University of Orléans, the University of Tours, and INSA CVL with companies, associations, communities, and institutions from the Centre-Val de Loire region. Each organization submits a project that students work on in groups.",
           "/petitesaisonlogo.jpg",
-          ["Alexandre Cailloux","Arnaud Girard","Matthieur Bonbon","Fatoumata Barry"],
+          ["Alexandre Cailloux","Arnaud Girard","Matthieu Bonbon","Fatoumata Barry"],
+          ["Java","Spring","Angular","MongoDB"]
+        ),
+        new Projet(
+          "Site web pour une pizzeria",
+          "DiLL is a challenge that connects students from the University of Orléans, the University of Tours, and INSA CVL with companies, associations, communities, and institutions from the Centre-Val de Loire region. Each organization submits a project that students work on in groups.",
+          "/petitesaisonlogo.jpg",
+          ["Alexandre Cailloux","Arnaud Girard","Matthieu Bonbon","Fatoumata Barry"],
+          ["Java","Spring","Angular","MongoDB"]
+        ),
+        new Projet(
+          "Site web pour une pizzeria",
+          "DiLL is a challenge that connects students from the University of Orléans, the University of Tours, and INSA CVL with companies, associations, communities, and institutions from the Centre-Val de Loire region. Each organization submits a project that students work on in groups.",
+          "/petitesaisonlogo.jpg",
+          ["Alexandre Cailloux","Arnaud Girard","Matthieu Bonbon","Fatoumata Barry"],
           ["Java","Spring","Angular","MongoDB"]
         )
       ];
