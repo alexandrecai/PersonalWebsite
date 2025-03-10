@@ -1,7 +1,9 @@
 nav {
-  background-color: #f8f9fa;
+  background-color: #f9eeff;
   padding: 15px 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 
   .navbar-nav {
     display: flex;
@@ -14,23 +16,25 @@ nav {
 
 
       .nav-link {
-        font-size: 16px;
-        color: #343a40;
+        font-size: 20px;
+        color: #b487da;
         transition: color 0.3s, font-size 0.3s;
 
         &:hover {
-          color: #000000;
-          font-size: 20px;
-          background-color: #e3e3e3;
+          color: #ffffff;
+          font-size: 24px;
+          background-color: #b487da;
           border-radius: 20px;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
       }
 
       .active{
-        color: #000000;
-        font-size: 20px;
-        background-color: #e3e3e3;
+        color: #ffffff;
+        font-size: 24px;
+        background-color: #b487da;
         border-radius: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
       }
     }
   }
@@ -43,3 +47,10 @@ button {
     transform: translate(1px, 1px);
   }
 }
+
+.logo-ac{
+  border-radius: 20px;
+  object-fit: cover;
+  background-color: white;
+}
+
