@@ -1,10 +1,11 @@
 .mat-mdc-standard-chip{
   --mdc-chip-elevated-container-color: #ffffff;
-  --mdc-chip-label-text-color: #474747;
+  --mdc-chip-label-text-color: #b487da;
+  --mat-sys-outline: #b487da;
 }
 
 .mat-mdc-chip-highlighted{
-  --mdc-chip-elevated-container-color: #474747;
+  --mdc-chip-elevated-container-color: #b487da;
   --mdc-chip-label-text-color: white;
 }
 
@@ -24,7 +25,12 @@ h2, h4{
   border: 2px solid;
   &:hover{
     background-color: #b487da;
+    border-color: #b487da;
     color: #ffffff;
+    .mat-mdc-chip-highlighted{
+      --mdc-chip-elevated-container-color: #ffffff;
+      --mdc-chip-label-text-color: #b487da;
+    }
   }
 }
 

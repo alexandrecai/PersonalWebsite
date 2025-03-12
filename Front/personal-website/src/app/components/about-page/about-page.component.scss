@@ -1,9 +1,20 @@
 .whole-card{
-  background-color: #f8f9fa;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f9eeff;
+  color : #b487da;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
+  border: 2px solid;
   &:hover{
-    background-color: #e3e3e3;
+    background-color: #b487da;
+    border-color: #b487da;
+    color: #ffffff;
+    h3{
+      color: #ffffff;
+    }
+    .mat-mdc-chip-highlighted{
+      --mdc-chip-elevated-container-color: #ffffff;
+      --mdc-chip-label-text-color: #b487da;
+    }
   }
 }
 
@@ -13,7 +24,7 @@
 
 img{
   border-radius: 100%;
-  border: solid #474747;
+  border: 2px solid #b487da;
 }
 
 li{
@@ -30,3 +41,9 @@ p{
   object-fit: contain;
   background-color: white;
 }
+
+h2,h3{
+  font-weight: bold;
+  color : #b487da;
+}
+

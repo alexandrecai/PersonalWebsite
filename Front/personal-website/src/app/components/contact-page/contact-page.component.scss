@@ -1,0 +1,52 @@
+.whole-card{
+  background-color: #f9eeff;
+  color : #b487da;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  border: 2px solid;
+}
+
+h2{
+  font-weight: bold;
+}
+
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+button{
+    font-size: 20px;
+    color: #b487da;
+    transition: color 0.3s, font-size 0.3s;
+    border-radius: 20px;
+    border: none;
+    height: 50px;
+
+    &:disabled{
+      color: rgba(180, 135, 218, 0.44);
+    }
+
+    &:enabled{
+      &:hover {
+        color: #ffffff;
+        font-size: 24px;
+        background-color: #b487da;
+
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+    }
+
+}
+
+mat-form-field{
+  textarea{
+    height: 170px;
+  }
+}
