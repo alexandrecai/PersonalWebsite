@@ -1,12 +1,12 @@
 <div class="d-flex flex-column align-items-center justify-content-center p-3 p-md-5 p-lg-5">
-  <div class="col-12 col-md-12 col-lg-7 col-xl-6 pt-4">
+  <div class="col-12 col-md-12 col-lg-10 col-xl-7 pt-4">
     <div class="d-flex flex-column flex-md-row flex-lg-row p-5 align-items-center whole-card mb-5">
-      <div class="mt-4 mt-lg-0 mt-md-0 ms-md-4 ms-lg-0 border-right pe-lg-5 pe-md-5 pe-sm-0 pb-sm-5 pb-lg-0 pb-md-0 pb-5">
+      <div class="mt-4 mt-lg-0 mt-md-0 ms-md-4 ms-lg-0 border-right pe-lg-5 pe-md-5 pe-sm-0 pb-sm-5 pb-lg-0 pb-md-0 pb-5 myself-image">
         <img ngSrc="/moi.jpg" alt="logo" width="300" height="300">
       </div>
       <div>
-        <p class="p-4 ps-5">Développeur Fullstack passionné, j’ai effectué l’ensemble de mes études à Orléans avant de me spécialiser dans la conception et le développement d’applications web. Curieux et polyvalent, j’ai travaillé sur des projets variés en explorant de nombreuses technologies, ce qui me permet de m’adapter rapidement aux nouveaux environnements et défis techniques.</p>
-        <ul class="ps-5">
+        <p class="p-1 p-md-2 p-lg-4 p-xl-4 ps-md-5 ps-lg-5 ps-xl-5 pt-3 ">Développeur Fullstack passionné, j’ai effectué l’ensemble de mes études à Orléans avant de me spécialiser dans la conception et le développement d’applications web. Curieux et polyvalent, j’ai travaillé sur des projets variés en explorant de nombreuses technologies, ce qui me permet de m’adapter rapidement aux nouveaux environnements et défis techniques.</p>
+        <ul class="p-1 ps-md-5 ps-lg-5 ps-xl-5">
           <li>
             <h5 class="pe-2">Âge</h5>
             <p>24 ans</p>
@@ -21,7 +21,7 @@
   </div>
   <h2 class="mb-4">Diplômes</h2>
   @for (diplome of diplomes; track diplome.name){
-    <div class="col-12 col-md-12 col-lg-6 col-xl-5">
+    <div class="col-12 col-md-12 col-lg-9 col-xl-6">
       <div class="d-flex flex-column flex-md-row flex-lg-row p-5 align-items-center whole-card mb-5">
         <div class="flex-grow-1">
           <h3>{{diplome.name}}</h3>
@@ -36,7 +36,7 @@
   }
   <h2 class="mb-4">Expériences professionnelles</h2>
   @for (experience of experiences; track experience.poste){
-    <div class="col-12 col-md-12 col-lg-6 col-xl-5">
+    <div class="col-12 col-md-12 col-lg-9 col-xl-6">
       <div class="d-flex flex-column flex-md-row flex-lg-row p-5 align-items-center whole-card mb-5">
         <div class="flex-grow-1">
           <h3>{{experience.poste}}</h3>
