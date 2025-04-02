@@ -15,7 +15,8 @@ export class ProjetService {
           "Création de mon site web personnel servant de vitrine pour mes réalisations. Ce site, sur lequel vous naviguez actuellement, a été entièrement développé avec Angular. Il intègre la bibliothèque EmailJS, permettant de me contacter facilement par email.",
           "/logo.jpeg",
           ["Alexandre Cailloux"],
-          ["Angular","Bootstrap"]
+          ["Angular","Bootstrap"],
+          "https://github.com/alexandrecai/PersonalWebsite"
         ),
         new Projet(
           "Site web pour une pizzeria",

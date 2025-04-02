@@ -1,6 +1,6 @@
 import {Component, Input} from '@angular/core';
 import {Projet} from '../../models/projet';
-import {NgOptimizedImage} from '@angular/common';
+import {NgIf, NgOptimizedImage} from '@angular/common';
 import {MatChip, MatChipListbox, MatChipSet} from '@angular/material/chips';
 
 @Component({
@@ -9,6 +9,7 @@ import {MatChip, MatChipListbox, MatChipSet} from '@angular/material/chips';
     NgOptimizedImage,
     MatChipSet,
     MatChip,
+    NgIf,
   ],
   templateUrl: './projet-item.component.html',
   styleUrl: './projet-item.component.scss'

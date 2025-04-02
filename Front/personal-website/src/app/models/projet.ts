@@ -5,6 +5,7 @@ export class Projet{
     public description: string,
     public imageUrl: string,
     public contributors : string[],
-    public technos: string[]
+    public technos: string[],
+    public git?: string
   ) {}
 }

@@ -23,6 +23,39 @@ h2, h4{
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   border: 2px solid;
+  /*&:hover{
+    background-color: #b487da;
+    border-color: #b487da;
+    color: #ffffff;
+    .mat-mdc-chip-highlighted{
+      --mdc-chip-elevated-container-color: #ffffff;
+      --mdc-chip-label-text-color: #b487da;
+    }
+  }
+  */
+
+}
+
+img{
+  border-radius: 20px;
+  border: 2px solid #b487da;
+}
+
+
+a {
+  text-decoration: none;
+  border: 2px solid;
+  color: #b487da;
+  border-radius: 20px;
+  background-color: white;
+
+  img{
+    border: none;
+  }
+
+  h4{
+    font-size: 20px;
+  }
   &:hover{
     background-color: #b487da;
     border-color: #b487da;
@@ -34,7 +67,3 @@ h2, h4{
   }
 }
 
-img{
-  border-radius: 20px;
-  border: 2px solid #b487da;
-}
