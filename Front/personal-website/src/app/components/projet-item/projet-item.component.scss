@@ -39,6 +39,7 @@ h2, h4{
 img{
   border-radius: 20px;
   border: 2px solid #b487da;
+
 }
 
 
@@ -66,4 +67,30 @@ a {
     }
   }
 }
+
+.image-preview{
+  width: 100%;
+  height: auto;
+}
+
+button{
+  border: none;
+  background-color: #f9eeff;
+  border-radius: 20px;
+
+  mat-icon{
+    color:#b487da;
+    transform: scale(2);
+  }
+
+  &:hover{
+    background-color: #b487da;
+    color: #ffffff;
+
+    mat-icon{
+      color:#f9eeff;
+    }
+  }
+}
+
 

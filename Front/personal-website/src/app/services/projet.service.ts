@@ -16,14 +16,26 @@ export class ProjetService {
           "/logo.jpeg",
           ["Alexandre Cailloux"],
           ["Angular","Bootstrap"],
-          "https://github.com/alexandrecai/PersonalWebsite"
+          "https://github.com/alexandrecai/PersonalWebsite",
+          "/previews/personal_website.png"
         ),
         new Projet(
           "Site web pour une pizzeria",
-          "DiLL is a challenge that connects students from the University of Orléans, the University of Tours, and INSA CVL with companies, associations, communities, and institutions from the Centre-Val de Loire region. Each organization submits a project that students work on in groups.",
+          "DiLL est un défi qui met en relation des étudiants de l’Université d’Orléans, de l’Université de Tours et de l’INSA Centre-Val de Loire avec des entreprises, des associations, des collectivités et des institutions de la région Centre-Val de Loire. Chaque organisation propose un projet sur lequel les étudiants travaillent en groupe.\n" +
+          "\n" +
+          "Mon groupe a été chargé de créer un site web et une application mobile pour une pizzeria locale. Le site permet aux utilisateurs de passer des commandes en ligne, tandis que l’application mobile est utilisée par le personnel de cuisine pour afficher les commandes." ,
           "/petitesaisonlogo.jpg",
           ["Alexandre Cailloux","Arnaud Girard","Matthieu Bonbon","Fatoumata Barry"],
-          ["Java","Spring","Angular","MongoDB"]
+          ["Java","Spring","Angular","MongoDB"],
+          "",
+          "/previews/petite_saison_website.png"
+        ),
+        new Projet(
+          "Amélioration d'un projet en réalité virtuelle",
+          "DiLL is a challenge that connects students from the University of Orléans, the University of Tours, and INSA CVL with companies, associations, communities, and institutions from the Centre-Val de Loire region. Each organization submits a project that students work on in groups.",
+          "/unity.png",
+          ["Alexandre Cailloux","Matthieu Bonbon","Julien Oger","Ahmet Khadir","Enzo Stead","Thomas Deblock"],
+          ["C#","Unity","Réalité  Virtuelle","Blender"]
         )
       ];
   }
