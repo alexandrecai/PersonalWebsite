@@ -1,8 +1,8 @@
 <div class="whole-card">
 <div class="d-flex flex-column flex-md-row flex-lg-row p-5 pb-2 align-items-center">
   <div>
-    <h2 class="pb-3">{{ projet.name }}</h2>
-    <p class="pb-3  col-11">{{ projet.description }}</p>
+    <h2 class="pb-3">{{ projet.name | uppercase }}</h2>
+    <p class="pb-3  col-11" style="white-space: break-spaces;">{{ projet.description }}</p>
     <h4>Contributeurs</h4>
     <div class="d-flex d-inline pb-4">
       <mat-chip-set>
@@ -27,7 +27,7 @@
     <div *ngIf="projet.git" class="mt-2 d-flex align-items-center justify-content-center pt-3">
       <a [href]=projet.git class="git-button-text  p-2">
         <div class="d-flex align-items-center justify-content-center flex-column">
-          <img ngSrc="/git.png" alt="git" width="50" height="50" class="">
+          <mat-icon class="code-icon">code</mat-icon>
           <h4 class="">Code source</h4>
         </div>
 
