@@ -5,5 +5,6 @@ export class Experience{
     public entreprise: string,
     public imageUrl: string,
     public date : string,
+    public description: string
   ) {}
 }
