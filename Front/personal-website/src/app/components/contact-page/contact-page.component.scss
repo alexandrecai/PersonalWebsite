@@ -22,7 +22,7 @@ h2{
 }
 
 button{
-    font-size: 20px;
+
     color: #b487da;
     transition: color 0.3s, font-size 0.3s;
     border-radius: 20px;
@@ -31,13 +31,18 @@ button{
 
     &:disabled{
       color: rgba(180, 135, 218, 0.44);
+      background-color: #ededed;
     }
 
     &:enabled{
+      border: 2px solid;
+      background-color: white;
+
       &:hover {
         color: #ffffff;
-        font-size: 24px;
+
         background-color: #b487da;
+        border-color: #b487da;
 
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
       }
@@ -48,5 +53,27 @@ button{
 mat-form-field{
   textarea{
     height: 170px;
+  }
+}
+
+@media screen and (min-width: 769px){
+  button{
+    font-size: 20px;
+    &:enabled {
+      &:hover {
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  button{
+    font-size: 15px;
+    &:enabled {
+      &:hover {
+        font-size: 19px;
+      }
+    }
   }
 }
